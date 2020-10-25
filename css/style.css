@@ -44,6 +44,7 @@ h1 {
   color: #f2eaec;
   background: linear-gradient(50deg, #d88a83, #ba6c65);
   transition: color 0.3s ease-in-out, background 0.4s ease-in-out;
+ 
 }
 
 .button:hover {
@@ -78,3 +79,16 @@ i:hover {
 i {
   color: #0ce5e1;
 }
+
+.shadow-drop-2-center.button:hover{transform:scale(1.05);-webkit-animation:shadow-drop-2-center .4s cubic-bezier(.165,.84,.44,1.000) alternate both;animation:shadow-drop-2-center .4s cubic-bezier(.165,.84,.44,1.000) alternate both}
+@-webkit-keyframes shadow-drop-2-center{0%{-webkit-transform:translateZ(0);transform:translateZ(0);-webkit-box-shadow:0 0 0 0 transparent;box-shadow:0 0 0 0 transparent}100%{-webkit-transform:translateZ(50px);transform:translateZ(50px);-webkit-box-shadow:0 0 20px 0 rgba(0,0,0,.35);box-shadow:0 0 20px 0 rgba(0,0,0,.35)}}@keyframes shadow-drop-2-center{0%{-webkit-transform:translateZ(0);transform:translateZ(0);-webkit-box-shadow:0 0 0 0 transparent;box-shadow:0 0 0 0 transparent}100%{-webkit-transform:scal(1.05);transform:scal(1.05);-webkit-box-shadow:0 0 20px 0 rgba(0,0,0,.35);box-shadow:0 0 20px 0 rgba(0,0,0,.35)}}
+
+.shadow-drop-2-center:hover{transform:scale(1.1);-webkit-animation:shadow-drop-2-center .4s cubic-bezier(.165,.84,.44,1.000) alternate both;animation:shadow-drop-2-center .4s cubic-bezier(.165,.84,.44,1.000) alternate both}
+@-webkit-keyframes shadow-drop-2-center{0%{-webkit-transform:translateZ(0);transform:translateZ(0);-webkit-box-shadow:0 0 0 0 transparent;box-shadow:0 0 0 0 transparent}100%{-webkit-transform:translateZ(50px);transform:translateZ(50px);-webkit-box-shadow:0 0 20px 0 rgba(0,0,0,.35);box-shadow:0 0 20px 0 rgba(0,0,0,.35)}}@keyframes shadow-drop-2-center{0%{-webkit-transform:translateZ(0);transform:translateZ(0);-webkit-box-shadow:0 0 0 0 transparent;box-shadow:0 0 0 0 transparent}100%{-webkit-transform:scal(1.1);transform:scal(1.1);-webkit-box-shadow:0 0 20px 0 rgba(0,0,0,.35);box-shadow:0 0 20px 0 rgba(0,0,0,.35)}}
+
+.flip-in-hor-bottom{-webkit-animation:flip-in-hor-bottom .7s cubic-bezier(.25,.46,.45,.94) .4s both;animation:flip-in-hor-bottom .7s cubic-bezier(.25,.46,.45,.94) .4s both}
+@-webkit-keyframes flip-in-hor-bottom{0%{-webkit-transform:rotateX(80deg);transform:rotateX(80deg);opacity:0}100%{-webkit-transform:rotateX(0);transform:rotateX(0);opacity:1}}@keyframes flip-in-hor-bottom{0%{-webkit-transform:rotateX(80deg);transform:rotateX(80deg);opacity:0}100%{-webkit-transform:rotateX(0);transform:rotateX(0);opacity:1}}
+
+.tracking-in-expand{-webkit-animation:tracking-in-expand .7s cubic-bezier(.215,.61,.355,1.000)  both;animation:tracking-in-expand .7s cubic-bezier(.215,.61,.355,1.000)  both}
+@-webkit-keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}@keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+
